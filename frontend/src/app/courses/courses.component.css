@@ -1,0 +1,248 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+.background-container{
+    height: 500px;
+    width: 100%;
+    background-image: url('/image/coursesbackground1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+}
+.black-overlay{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background:rgba(8, 0, 0, 0.5); 
+}
+.container{
+    font-family: "Arial";
+    color: white;
+    height:75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: rebeccapurple;*/
+}
+.logo-image{
+    padding-top:5px;
+    padding-left: 18px;
+}
+.child-container{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.title{
+    font-size: 36px;
+    padding-top: 9px;
+    color: white;
+}
+#nav-container{
+    height:50px;
+    width: 380px;
+    color: white;
+    font-weight: 600;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+#nav-container nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+}
+#nav-container nav a{
+    color: white;
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    margin-top: 200px;
+}
+.courses-container{
+    height: 100px;
+    width: 1100px;
+    background-color: lavender;
+    margin-top: 550px;
+    margin-left: 120px;
+}
+.courses-container div{
+    height: 70px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 28px;
+    padding-left: 160px;
+}
+.input-box{
+    height: 40px;
+    width: 245px;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.category{
+    height: 45px;
+    width: 245px;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.search-btn{
+    height: 45px;
+    width: 200px;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+.box{
+    height: 512px;
+    border: 1px solid rgb(179, 178, 178);
+    margin-top: 25px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 20px black;
+}
+.course-image{
+    height: 220px;
+    width: 20rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.course-details h2{
+    font-size: 23px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+.course-details p{
+    font-family: Arial;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.box p{
+    font-family: Arial;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+  
+.technologycourses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+
+.technologycourses-list .box:hover{
+    transform: translateY(-15px);
+    transition: 0.5s ease;
+}
+
+  
+  .course-details-container {
+    height: 100%;
+    width: 100%;
+  }
+  .background-image{
+    background-image: url('/image/course-backgroundimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  .background-courses{
+    height: 560px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+ .course-content{
+    height: 500px;
+    width: 700px;
+    
+ }
+ .course-content h2{
+    font-family: Arial;
+    font-size: 50px;
+ }
+ .course-content p{
+    font-family: Arial;
+    font-size: 25px;
+ }
+.course-image-container{
+    height: 500px;
+    width: 500px;
+}
+  .details-image {
+    width: 500px;
+    height: 350px;
+    margin-top: 70px;
+    border: 5px solid white;
+    border-radius: 20px;
+  }
+  
+  .enroll-btn {
+    height: 44px;
+    width: 150px;
+    background-color: rgb(26, 152, 202);
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    height: 44px;
+    width: 200px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 65px;
+  }
+  
+  .certificate-container{
+    height: 200px;
+    width: 700px;
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .earn{
+    height: 150px;
+    width: 350px;
+    margin-top: 10px;
+    font-family: 'OpenSans-light', Arial, sans-serif;
+}
+  .certificate-image{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+  }
